@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="https://google.com">
+        <tittle> SỞ THÍCH CỦA BẠN</tittle>
+        <BR/>
+        <div>
+            <label for="name">Họ và tên</label>
+            <input id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+        <table>
+            <label for="fav"> Sở thích</label>
+            <tr>
+            <td><input id="sport" type="checkbox" value="fav">
+               <label for="sport">Thể thao</label> 
+            </td>
+            <td><input id="music" type="checkbox" value="fav">
+                <label for="music">Âm nhạc</label>
+             </td>
+             <td><input id="reading" type="checkbox" value="fav">
+               <label for="reading">Đọc sách</label>
+             </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="surf" type="checkbox" value="fav">
+                        <label for="surf">Lướt web</label> 
+                </td>
+                <td>
+                   <input id="games" type="checkbox" value="fav">
+                        <label for="games">Chơi game</label> 
+                </td>
+                <td>
+                   <input id="cinema" type="checkbox" value="fav">
+                        <label for="cinema">Điện ảnh</label> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <input id="traveling" type="checkbox" value="fav">
+                        <label for="traveling">Du lịch</label>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        </div>
+        <div>
+            <input type="submit" value="Gửi thông tin">
+            <input type="reset" value="Nhập lại">
+        </div>
+    </form>
+</body>
+</html>
